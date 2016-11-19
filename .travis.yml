@@ -21,5 +21,6 @@ deploy:
   local-dir: _site
   acl: public_read
   region: eu-west-1
+  skip_cleanup: true
   on:
     repo: devoctomy/devoctomy.com
