@@ -11,3 +11,15 @@ script: "./script/cibuild"
 branches:
   only:
   - master
+  
+deploy:
+  provider: s3
+  access_key_id: AKIAIOMZG34BOE3AULBQ
+  secret_access_key:
+    secure: O3e6ZtLSLDROKO3rhBd28k4vb/fSTg1pwakM12iesEeY3yZe/7WxrhhSSdjQUI/j1cNPjDR4Nofndsb/TirSqA4s5Sk5Avh4QdRH88NaHT7SSQGt5e24dQ7JKy/0THUSHMQHl8uXhuS0YyWsSod7q/ebjCDHGu5/FIHrHeLxTNE0K+IM7EnhJXq7Wp8YoTW2fsiMdR0lTJchDbQbppEcxqQ5ouGe84aMZMqQ0TuF/5WBhCjHVzB/crz21OA7/dl22oIa8G8nI1EQ9IghBJ2/feL30Sg1jouIjWEAwmpLLb/q3Y/Y+8buUoTUcJW2JUHIarfDpdqjCs3kORTOFHeMWrZfcVliq0/3Hl4ayDqmdZMjqLeykOi281x0XDimDNHUtMfNFbKdOviRvOEjh7U+2m1Xpe2j4f+Ecx6cZBfcaUFw19f3yIW2twbMVhoDGMMrmwBPuGH+xGzPTh7WzxdLV+iMwNJUjg3ghuQOVvh7WLx1zoonL6wLGHFmQeMkk6WsLw3W24DYjDAbj7Oel32ChqUq25618sBnzC6wC8LPQlIHz9MuDzw6hd78WmiLZszlP6n/4c2hI8mpRfZt8MkuVBaUJuLRSbLRe30z8Nf0UVs7VFc3yeqwDcPBiN/92uoIc4uV6+3fwgBKtW2z81CK39qb54QlnhjfDxKJq5GWZu8=
+  bucket: www.devoctomy.com
+  local-dir: _site
+  acl: public_read
+  region: eu-west-1
+  on:
+    repo: devoctomy/devoctomy.com
