@@ -1,27 +1,28 @@
 # Site settings
-email: 
+email: nick@devoctomy.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
+title: devoctomy
+description: The home of devoctomy, software development
+url: "http://www.devoctomy.com"
+twitter_username: devoctomy
+default_img: /assets/images/surfacebook_small.jpg
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Nick Pateman
+profile_img: /assets/images/nick.jpg
+profile: CEO and developer for devoctomy.  Gadget and dance music enthusiast, skinny but weighs just enough to not blow away in a strong breeze.
 social:
-  github: 
+  github: https://github.com/settings/profile
+  facebook: https://www.facebook.com/devoctomy/
 
 # Build settings
 include: ["_categories"]
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+exclude: ["Gemfile", "Gemfile.lock"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
