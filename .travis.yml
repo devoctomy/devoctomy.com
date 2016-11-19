@@ -1,22 +1,17 @@
 language: ruby
-
 rvm:
 - 2.3.0
-
 before_script:
 - chmod +x ./script/cibuild
-
 script: "./script/cibuild"
-
 branches:
   only:
   - master
-  
 deploy:
   provider: s3
-  access_key_id: AKIAIOMZG34BOE3AULBQ
+  access_key_id: AKIAII45SI4IQATGXTGQ
   secret_access_key:
-    secure: O3e6ZtLSLDROKO3rhBd28k4vb/fSTg1pwakM12iesEeY3yZe/7WxrhhSSdjQUI/j1cNPjDR4Nofndsb/TirSqA4s5Sk5Avh4QdRH88NaHT7SSQGt5e24dQ7JKy/0THUSHMQHl8uXhuS0YyWsSod7q/ebjCDHGu5/FIHrHeLxTNE0K+IM7EnhJXq7Wp8YoTW2fsiMdR0lTJchDbQbppEcxqQ5ouGe84aMZMqQ0TuF/5WBhCjHVzB/crz21OA7/dl22oIa8G8nI1EQ9IghBJ2/feL30Sg1jouIjWEAwmpLLb/q3Y/Y+8buUoTUcJW2JUHIarfDpdqjCs3kORTOFHeMWrZfcVliq0/3Hl4ayDqmdZMjqLeykOi281x0XDimDNHUtMfNFbKdOviRvOEjh7U+2m1Xpe2j4f+Ecx6cZBfcaUFw19f3yIW2twbMVhoDGMMrmwBPuGH+xGzPTh7WzxdLV+iMwNJUjg3ghuQOVvh7WLx1zoonL6wLGHFmQeMkk6WsLw3W24DYjDAbj7Oel32ChqUq25618sBnzC6wC8LPQlIHz9MuDzw6hd78WmiLZszlP6n/4c2hI8mpRfZt8MkuVBaUJuLRSbLRe30z8Nf0UVs7VFc3yeqwDcPBiN/92uoIc4uV6+3fwgBKtW2z81CK39qb54QlnhjfDxKJq5GWZu8=
+    secure: pB9zSJL3Z9HKujDxIQJLQVmKr73+6SNmHTx5p9j57JNqYWzrhUxHZb9AIW4c23F11ye+t+dTu4Ru2ov4xTDW4SC6BzMHCbXDOUNYAQRzgRigeE0+LavY035R14SJWMko0HTUJKN9XyxjZwMPjCMDkZlR0vNW7hETNtBU8CNSXg062iiLdRGeko4A0BXFQlbkojXY8BRRTLfAz8q4dgZ5TeNLrhUZQ2jVA0XvFrzArBDO7lglHgk7jcx2NNaLfIH/KmhcIVmNJEALsJRIbBWcWDKI+EhhAeffOw/yGwpV+jhq9akH40e0POtXSPwsvyJpsXNVywi9Z3iakYJmzsEb98hQFEnu48p9jkxu0iImF+5KamnC+krB4sNfMK+yT6OPxDV+xKB046XmP5RjoY1Yt+Wi0ZSN9vZJa6jfBni9LQkcqcqPIm1skpmpvytU07pOI7/hRfZ0mK9R8PkgXLn0DksO8+guqonj9p+s9ur02kVRtlWdwzNLWebAS2jDJO2jYldzN0mCASyRtZUlOlYdgtvbr/zMX302NyD8On9lK6TdRO7UYFDKYCMDEfdl+dnArUiNpPLxg0hoclQgy4rzz8ns9GRHbs+4nSPLXgeabJTNMsOBKMKaTXGACAmU6Z1lJEVeXBRhwWU4M6QNuThUavQ5OH5zHIbIUZFXsQ/yQFI=
   bucket: www.devoctomy.com
   local-dir: _site
   acl: public_read
