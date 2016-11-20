@@ -10,7 +10,7 @@
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
+  <meta property="og:image" content="{% if page.image-sm %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
   <meta property="og:type" content="blog">
 
   <meta name="twitter:card" content="summary">
@@ -18,9 +18,9 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:site" content="{{ site.title }}">
-  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.social.twitter }}">
   <meta name="twitter:domain" content="{{ site.url }}">
-  <meta property="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
+  <meta property="twitter:image" content="{% if page.image-sm %}{{ page.image-sm }}{% else %}{{ site.default_img }}{% endif %}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
