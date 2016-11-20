@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Welcome"
+title: Welcome
 date: 2016-11-19
 categories:
   - devoctomy
   - website
   - announcements
-description: 
+description: Welcome
 image: /assets/images/surfacebook.jpg
 image-sm: /assets/images/surfacebook_small.jpg
 ---

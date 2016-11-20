@@ -21,13 +21,18 @@ layout: default
     </div>
   </header>
 
+  <section class="profile" style="margin-top: 32px; height: 0px">
+    <div>
+      <div>
+		{% include share.html %}
+      </div>
+    </div>
+  </section>
+
   <section class="section-padding post" itemprop="articleBody">
     {{ content }}
-
-	{% include share.html %}
-	</section>
-  
-
+  </section>
+   
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
