@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "In the pipeline"
+title: In the pipeline
 date: 2016-11-19
 categories:
   - devoctomy
   - announcements
   - apps
-description: 
+description: Upcoming products
 image: /assets/images/surfacebook_2.jpg
 image-sm: /assets/images/surfacebook_2_small.jpg
 ---

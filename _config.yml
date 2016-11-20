@@ -20,6 +20,7 @@ profile: CEO and developer for devoctomy.  Gadget and dance music enthusiast, sk
 social:
   github: https://github.com/settings/profile
   facebook: https://www.facebook.com/devoctomy/
+  twitter: devoctomy
 
 # Build settings
 include: ["_categories"]
