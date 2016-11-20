@@ -1,12 +1,15 @@
----
-layout: default
-title: About
-description: About devoctomy
----
-devoctomy is a software development company that specialises in all things Windows, we consist of 2; Microsoft fan boys, Nick Pateman the CEO and sole developer, and Marc McKerracher the tester in chief (so if anything doesn't work, it's his fault).  
+## Who Are We?
 
-Founded in April 2015, devoctomy plans on bringing software products for the Windows platform, primarily that of Universal Windows 10.  As life is short, and we are here to enjoy every moment of it, our software will tend to have a certain toung-in-cheek edge about it
+Founded in February 2015, devoctomy is a software development company that specialises in all things Windows, we consist of 2; Microsoft fan boys, Nick Pateman the CEO and sole developer, and Marc McKerracher the tester in chief (so if anything doesn't work, it's his fault).  
 
-We have an archive of potentially cool and fun products that we plan on releasing in the near future, so watch this space.
+We are based on the south coast of England, near sunny ol' Brighton (Where all the cool kids go).
 
-> This website was created using an open-source Jekyll theme from [Thomas Vaeth](https://github.com/thomasvaeth/trophy-jekyll).  Picked for its simple but elegant design.  You might ask that if we are a software development company, why didn't we create our own?  Well you may or may not know that the world of software development is a huge field, website development is not our forte so we would rather leave it to those that can do it best.  Plus as the code is open-source, feel free to download and play with it.
+## What Do We Do?
+
+Simply put, we write software for Microsoft Windows, aiming primarily at Windows 10 and the Universal App Platform.  Although we haven't released anything just yet, we have an archive of potentially cool and fun products that we plan on releasing in the near future.  We just need to polish off some final bits in order to ready them for the public.
+
+That includes games and applications.  If you would like to stay notified of our developments, come back regularly and read our blog posts, or alternatively you can sign up for our newsletter on the 'About' page.
+
+## About The Website
+
+This website was created using an open-source Jekyll theme from [Thomas Vaeth](https://github.com/thomasvaeth/trophy-jekyll).  Picked for its simple but elegant design.  You might ask that if we are a software development company, why didn't we create our own?  Well you may or may not know that the world of software development is a huge field, website development is not our forte so we would rather leave it to those that can do it best.  Plus as the code is open-source, feel free to download and play with it.
