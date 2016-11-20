@@ -20,7 +20,7 @@
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:creator" content="@{{ site.social.twitter }}">
   <meta name="twitter:domain" content="{{ site.url }}">
-  <meta property="twitter:image" content="{% if page.image-sm %}{{ page.image-sm }}{% else %}{{ site.default_img }}{% endif %}">
+  <meta property="twitter:image" content="{% if page.image-sm %}{{ site.url }}{{ page.image-sm }}{% else %}{{ site.url }}{{ site.default_img }}{% endif %}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
