@@ -37,7 +37,26 @@
   &.active {
     will-change: opacity;
     animation: fade-in 1s both;
+	
+	.contactlist {
+		text-align: center;
+		margin-top: 64px;
+		
+		.contactlistitem {
+			margin-bottom: 64px;
+			
+			.contactlistitemheading {
+				margin-bottom: 32px;
+			}
+			
+			.newsletterform {
+				margin-left: 64px;
+				margin-right: 64px;
+			}
+		}
+	}
   }
+
 }
 
 /**
