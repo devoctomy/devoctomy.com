@@ -1,9 +1,3 @@
-## Who Are We?
-
-Founded in February 2015, devoctomy is a software development company that specialises in all things Windows, we consist of 2; Microsoft fan boys, Nick Pateman the CEO and sole developer, and Marc McKerracher the tester in chief (so if anything doesn't work, it's his fault).  
-
-We are based on the south coast of England, near sunny ol' Brighton (Where all the cool kids go).
-
 ## What Do We Do?
 
 Simply put, we write software for Microsoft Windows, aiming primarily at Windows 10 and the Universal App Platform.  Although we haven't released anything just yet, we have an archive of potentially cool and fun products that we plan on releasing in the near future.  We just need to polish off some final bits in order to ready them for the public.
