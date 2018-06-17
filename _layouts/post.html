@@ -36,16 +36,19 @@ layout: default
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('{{ site.authors[page.author].profile_img }}');"></figure>
       </div>
       <div class="profile__container">
-        <p>{{ site.profile }}</p>
-        {% if site.email or site.social %}
+        <p>{{ site.authors[page.author].profile }}</p>
+        {% if site.authors[page.author].email or site.authors[page.author].social %}
           <ul class="profile__social">
-            {% if site.email %}
-              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+            {% if site.authors[page.author].email %}
+              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.authors[page.author].email }}"></a></li>
             {% endif %}
-            {% for social in site.social %}
+            {% if site.authors[page.author].personalwebsite %}
+              <li><a class="fa fa-lg fa-globe" href="{{ site.authors[page.author].personalwebsite }}"></a></li>
+            {% endif %}			
+            {% for social in site.authors[page.author].social %}
               <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
             {% endfor %}
           </ul>

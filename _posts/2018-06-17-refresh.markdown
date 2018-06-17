@@ -1,0 +1,25 @@
+---
+layout: post
+title: Refresh
+date: 2018-06-17
+categories:
+  - devoctomy
+  - website
+  - announcements
+description: A fresh start
+image: /assets/images/surfacebook.jpg
+image-sm: /assets/images/surfacebook_small.jpg
+author: nick
+---
+
+Welcome to the home of devoctomy, a small software development start-up based in Brighton.
+
+## Refreshed
+
+After a long time of being extremely snowed under with my day job, I was unable to dedicate the time necessary to this website.  Fortunately, I now believe that the tide has turned and I have some time on my hands, so I look forward to bringing some (hopefully) regular updates in the near future.
+
+Although visible content is still thin on the ground, there is much that I hope to be sharing within the coming months.  The company itself has pivoted slightly, from solely Windows, to a more generic stand-point, including VR (Windows / Android / Linux).
+
+I'm also hoping to release more content onto GitHub and even the Unity store (some free, some paid packages).
+
+You can visit our GitHub organisational home, [here](https://github.com/devoctomy).  We don't have masses of useful code there at the moment, but as mentioned previously, there is plenty to come.

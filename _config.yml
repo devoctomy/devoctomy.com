@@ -12,15 +12,27 @@ description: The home of devoctomy, software development
 url: "http://www.devoctomy.com"
 twitter_username: devoctomy
 default_img: /assets/images/surfacebook_small.jpg
-
-# Profile settings
-name: Nick Pateman
-profile_img: /assets/images/nick.jpg
-profile: CEO and developer for devoctomy.  Gadget and dance music enthusiast, skinny but weighs just enough to not blow away in a strong breeze.
-social:
-  github: https://github.com/settings/profile
-  facebook: https://www.facebook.com/devoctomy/
-  twitter: devoctomy
+ 
+# Author settings
+authors:
+  nick:
+    profile_img: /assets/images/nick.jpg
+    profile: CEO and developer for devoctomy.  Gadget and dance music enthusiast, always full of ideas, but severely lacking in time and patience.  You just gotta grab the bull by the horns, and get shit done!
+    email: nick@devoctomy.com
+    personalwebsite: http://www.npsoftware.co.uk
+    social:
+      github: https://github.com/devoctomy
+      facebook: https://www.facebook.com/devoctomy/
+      twitter: devoctomy
+  marc:
+    profile_img: /assets/images/marc.jpg
+    profile: Head of Quality Control.  Fishing, and football lover, assuring that our software reaches you strong, and stable, (hopefully not in a Theresa May kind of way).
+    email: marc@devoctomy.com
+    personalwebsite:
+    social:
+      github: https://github.com/devoctomy
+      facebook: https://www.facebook.com/devoctomy/
+      twitter: devoctomy      
 
 # Build settings
 include: ["_categories"]
