@@ -417,8 +417,19 @@
   }
   
   blockquote {
-	color: DarkGrey;
-	font-size: 11px;
+    *zoom: 1;
+    width: auto;
+	font-size: 12px;
+    max-width: 45.625rem;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: .313rem solid #ff9933;
+    padding: 0 1.875rem;
+    margin: 3.125rem auto;
   }
 }
 
@@ -478,6 +489,7 @@
   }
 
   &__social {
+    font-size: 30px;
     display: flex;
     justify-content: flex-end;
 

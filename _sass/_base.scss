@@ -5,7 +5,7 @@ $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
 $font-post: 'Lora', serif;
 
-$color-alpha: #9f8f68;
+$color-alpha: #ff9933;
 $color-alpha--light: #f5f3ef;
 
 $color-black: #0a0a0a;
@@ -57,9 +57,9 @@ body {
   }
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
-
+  color: #ff9933;
   font-family: $font-header;
 }
 
@@ -103,9 +103,8 @@ img {
 
 ol, ul {
   margin: 0;
-  padding: 0;
-
-  list-style-type: none;
+  padding: 1em;
+  list-style: none;
 }
 
 /**

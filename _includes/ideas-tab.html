@@ -1,0 +1,40 @@
+<div class="tab" markdown="1">
+	<div style="margin-left: 32px; margin-right: 32px">
+	
+    <h1 class="preview__header">Ideas</h1>
+
+    Since attempting to bring this site, and also my enthusiasm back from the dead.  I thought it would be a cool idea if I included a page of ideas.  These are ideas that I've had, or possible still consider, in respect of software solutions that I would like for devoctomy to work on, either just out of the love of programming, or to try to make a successful product.
+
+    So how I thought I would handle this is page, is by listing ideas here, by title, with a simple description and then separate pages with the idea broken down into more detailed sections.  I have decided that there's no point in letting these ideas just fade into the ether, I should get them out there, not only to provide content for the site, but potential fuel for others to create.  I'm not worried about others taking my ideas, as it's very unlikely that there are people hiding the bushes, just waiting for me to come out with ideas that they can take, that just doesn't happen.
+	
+	I also want these ideas to be fluid, unlike blog posts that I want to create just once and only amend if I find errors, I would like the ideas to be updated as / when I see fit.
+		
+    <ul itemscope itemtype="http://schema.org/Blog">
+      {% for post in paginator.posts %}
+	    {% if post.type == "idea" %}
+		  <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <span class="preview__more"><i class="fas fa-lightbulb"></i> Read More</span>
+            </a>
+          </li>
+		{% endif %}
+      {% endfor %}
+    </ul>
+
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+        {% endif %}
+      </div>
+    {% endif %}
+		
+	</div>
+</div>
