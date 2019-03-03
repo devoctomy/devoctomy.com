@@ -1,0 +1,29 @@
+---
+layout: post
+title: cachy
+date: 2019-03-03
+categories:
+  - devoctomy
+  - apps
+  - announcements
+  - android
+  - windows
+description: Announcing cachy, the Cross-Platform Password Protection System
+image: /assets/images/cachycollage.jpg
+image-sm: /assets/images/cachycollage_small.jpg
+type: blog
+author: nick
+---
+
+After almost 4 years since devoctomy was founded, we are finally nearing release of our first official commercial application, cachy, the 'Cross-Platform Password Protection System'.
+
+## A Little Background
+
+As things have been extremely quiet regarding cachy on the devoctomy website, well, regarding anything really! I thought I had best provide a little bit of background information.
+
+To put it as simply as possible, cachy has been in development for around a year now, and was born out of necessity for a cross-platform password protection system, similar to KeePass, but a little newer and with a nicer user experience, no disrespect meant to KeePass, as it is an invaluable tool, and we can only dream of cachy being anywhere near as popular or as widely used.
+
+## Coming Soon!
+
+Expect to see more information posted here in the coming weeks, along with an official home for cachy, which will be at [www.cachy.me](http://www.cachy.me).
+I have lots to do, so I best get on with it!
