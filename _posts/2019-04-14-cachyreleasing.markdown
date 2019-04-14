@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cachy
+title: cachy Is Now Code-Complete
 date: 2019-04-14
 categories:
   - devoctomy
@@ -10,7 +10,7 @@ categories:
   - windows
   - cachy
   - release
-description: cachy Is Now Code-Complete
+description: cachy Is Now Code-Complete and in the process of being released on both the Microsoft Store and Google Play app stores.
 image: /assets/images/cachydesktop.jpg
 image-sm: /assets/images/cachydesktop_small.jpg
 type: blog
