@@ -58,7 +58,7 @@ body {
 }
 
 h1, h2, h3 {
-  margin: 0;
+  margin: 0,0,0,8;
   color: #ff9933;
   font-family: $font-header;
 }
@@ -101,10 +101,15 @@ img {
   max-width: 100%;
 }
 
-ol, ul {
+ul {
   margin: 0;
   padding: 1em;
   list-style: none;
+}
+
+ol {
+  margin: 0;
+  padding: 1em;
 }
 
 /**

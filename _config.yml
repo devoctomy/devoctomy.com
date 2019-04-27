@@ -36,7 +36,7 @@ authors:
 
 # Build settings
 include: ["_categories"]
-exclude: ["Gemfile", "Gemfile.lock", "vendor"]
+exclude: ["Gemfile", "Gemfile.lock", "vendor", 'src', 'node_modules', '.bundle']
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
